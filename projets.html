@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Projets</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Portfolio</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="competences.html">Compétences</a></li>
+                    <li><a href="projets.html" class="active">Projets</a></li>
+                    <li><a href="interets.html">Centres d'intérêt</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="projets" class="page-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Mes projets</h2>
+            
+            <div class="project-filters fade-in">
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-info">
+                        <h3>Sites culturels</h3>
+                        <p>C'est un site conçu pour la ville de Bobo-Dioulasso regroupant les differents sites touristiques present dans la ville.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-info">
+                        <h3>Mon Portfolio</h3>
+                        <p>J'ai realisé cela pour permettre a quiconque voulant solliciter mes services de voir ce que j'ai pu realisés et ce dont je suis capable de faire. Je le mettrai a jour au fuir et a mesure.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>  
+</body>
+</html>
